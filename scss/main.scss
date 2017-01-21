@@ -9,3 +9,121 @@ Author: Your Name
 @import 'defaults';
 @import 'helpers';
 @import 'layout';
+@import 'normalize';
+@import 'typography';
+@import 'variables';
+
+/******************************************
+/* HOMEPAGE HEADER CONTENT AND MOVEMENT                 
+/*******************************************/
+
+.logo {
+	background-image: url("../images/yea3.png");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	top:0;
+  	left:0;
+  	transition:all 1s ease;
+}
+
+.logo:hover {
+  transform:translate( 0, -4% );
+}
+
+/******************************************
+/* HOMEPAGE PROJECT LINKS
+/*******************************************/
+
+.proj1-clearfix {
+	background-image: url("../images/Athera_thumb.jpg");
+	height:350px;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	background:rgba(0,0,0,0.7);
+	height: 350px;
+	width: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+	transform:translate( 0, 100% );
+	transition: all 1s ease;
+	text-align: center;
+	margin:0 auto;
+	padding-top: 150px; 
+}
+
+.column-half-clearfix:hover .overlay {
+	transform: translate(0, -100%);
+}
+
+.column-half-clearfix:hover .overlay {
+	transform: none;
+}
+
+/******************************************
+/* PROJECT PAGE 1             
+/*******************************************/
+
+/******************************************
+/* PROJECT HEADER           
+/*******************************************/
+
+.hero-image-clearfix {
+	background-image: url("../images/Athera_thumb.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.text-overlay {
+	margin:0 auto;
+	width: 33.3%;
+	margin-left: 10%;
+	margin-top:10%;  
+	float: left;
+}
+/******************************************
+/* PROJECT IMAGES           
+/*******************************************/
+
+.athera1-clearfix {
+	background-image: url("../images/Athera1.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera2-clearfix {
+	background-image: url("../images/Athera2.gif");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera3-clearfix {
+	background-image: url("../images/Athera3.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera4-clearfix {
+	background-image: url("../images/Athera4.png");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera5-clearfix {
+	background-image: url("../images/Athera5.png");
+	height:550px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
