@@ -83,6 +83,11 @@ img {
   text-align: center;
   padding-top: 15px; }
 
+.nav-home-clearfix {
+  max-width: 100%;
+  padding-top: 3%;
+  padding-bottom: 0%; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -507,7 +512,7 @@ h3 {
   margin-top: 10%; }
 
 h4 {
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #000;
   font-size: 2rem; }
 
@@ -523,8 +528,7 @@ h5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 24px; }
+  font-size: 1.5rem; }
 
 h6 {
   font-family: 'Roboto', sans-serif;
@@ -538,9 +542,15 @@ h6 {
   font-weight: 300;
   color: #fff;
   font-size: 2rem;
-  line-height: 24px;
   margin-bottom: 10%;
   display: inline; }
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none; }
 
 /******************************************
 /* COLOURS
@@ -610,8 +620,10 @@ h6 {
 .hero-image-clearfix {
   background-image: url("../images/Athera_thumb.jpg");
   height: 100%;
+  width: 50%;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  float: right; }
 
 .text-overlay {
   margin: 0 auto;
@@ -619,7 +631,18 @@ h6 {
   height: 100%;
   float: left;
   background: #ff7275;
-  padding: 10%; }
+  padding: 8%; }
+
+ul {
+  margin: 0px;
+  text-decoration: none; }
+
+li {
+  margin: 0px;
+  margin-right: 5%;
+  text-decoration: none;
+  display: inline;
+  float: right; }
 
 /******************************************
 /* PROJECT IMAGES           
