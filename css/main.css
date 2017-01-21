@@ -61,7 +61,6 @@ img {
   display: block;
   float: left;
   width: 98%;
-  height: 550px;
   background-color: #fff;
   margin: 10px; }
 
@@ -505,6 +504,11 @@ h3 {
   font-size: 2rem;
   margin: 0px; }
 
+h4 {
+  font-family: 'Ropa Sans', sans-serif;
+  color: #000;
+  font-size: 2rem; }
+
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -544,6 +548,13 @@ h6 {
   transform: translate(0, -4%); }
 
 /******************************************
+/* HOMEPAGE ABOUT ME                 
+/*******************************************/
+.about-me-clearfix {
+  height: 300px;
+  text-align: center; }
+
+/******************************************
 /* HOMEPAGE PROJECT LINKS
 /*******************************************/
 .proj1-clearfix {
@@ -553,7 +564,7 @@ h6 {
   background-position: center; }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 114, 117, 0.7);
   height: 350px;
   width: 100%;
   top: 0;
@@ -585,10 +596,10 @@ h6 {
 
 .text-overlay {
   margin: 0 auto;
-  width: 33.3%;
-  margin-left: 10%;
-  margin-top: 10%;
-  float: left; }
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: #ff7275; }
 
 /******************************************
 /* PROJECT IMAGES           
