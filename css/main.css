@@ -91,6 +91,7 @@ img {
   padding-right: 30%;
   padding-left: 30%;
   padding-top: 30px;
+  padding-bottom: 30px;
   float: left;
   border-bottom: 1px, solid, #fff; }
 
@@ -527,7 +528,8 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
   font-size: 2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 10px; }
 
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -663,6 +665,12 @@ li {
   text-decoration: none;
   display: inline;
   float: right; }
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  float: left; }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          
