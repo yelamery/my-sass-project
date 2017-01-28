@@ -45,7 +45,7 @@ img {
   max-width: 100%;
   margin: 0 auto; }
 
-.site-content {
+.site-content-clearfix {
   display: block;
   max-width: 100%;
   margin: 0 auto;
@@ -54,7 +54,7 @@ img {
 
 .column-whole-clearfix {
   height: 100vh;
-  background: linear-gradient(to right, #00aed2, #00aeef);
+  background: linear-gradient(to left, #22bfe5, #00aeef);
   position: relative; }
 
 .column-one-clearfix {
@@ -74,10 +74,21 @@ img {
   position: relative;
   overflow: hidden; }
 
+.about-me-clearfix {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: linear-gradient(to left, #22bfe5, #00aeef);
+  text-align: center;
+  padding-right: 30%;
+  padding-left: 30%;
+  float: left;
+  border-bottom: 1px, solid, #fff; }
+
 .site-footer-clearfix {
   max-width: 100%;
   margin: 0 auto;
-  background: linear-gradient(to right, #00aed2, #00aeef);
+  background: linear-gradient(to left, #22bfe5, #00aeef);
   clear: both;
   height: 50px;
   text-align: center;
@@ -499,7 +510,7 @@ template {
   font-size: 18px; }
 
 h2 {
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
   font-size: 2rem; }
 
@@ -514,7 +525,8 @@ h3 {
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin: 0; }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
