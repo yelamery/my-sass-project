@@ -33,15 +33,6 @@ Author: Your Name
 }
 
 /******************************************
-/* HOMEPAGE ABOUT ME                 
-/*******************************************/
-
-.about-me-clearfix {
-	height: 300px;
-	text-align: center;
-}
-
-/******************************************
 /* HOMEPAGE PROJECT LINKS
 /*******************************************/
 
@@ -114,7 +105,74 @@ li {
 }
 
 /******************************************
-/* PROJECT IMAGES           
+/* PROJECT IMAGES 3 COL          
+/*******************************************/
+
+.athera-brand1-clearfix {
+	background-image: url("../images/Athera_1.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand2-clearfix {
+	background-image: url("../images/Athera_2.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand3-clearfix {
+	background-image: url("../images/Athera_3.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand4-clearfix {
+	background-image: url("../images/Athera_4.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand5-clearfix {
+	background-image: url("../images/Athera_5.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand6-clearfix {
+	background-image: url("../images/Athera_6.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand7-clearfix {
+	background-image: url("../images/Athera_7.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand8-clearfix {
+	background-image: url("../images/Athera_8.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.athera-brand9-clearfix {
+	background-image: url("../images/Athera_9.jpg");
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+/******************************************
+/* PROJECT IMAGES 2 COL          
 /*******************************************/
 
 .athera1-clearfix {
