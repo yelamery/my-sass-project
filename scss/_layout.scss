@@ -95,5 +95,8 @@
 .exit-nav-clearfix {
 	padding:5%;
 	margin:0 auto;
-	float:right;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 100;
 }

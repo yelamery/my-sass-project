@@ -116,7 +116,10 @@ img {
 .exit-nav-clearfix {
   padding: 5%;
   margin: 0 auto;
-  float: right; }
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100; }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
