@@ -105,14 +105,18 @@ img {
   padding-top: 15px; }
 
 .nav-home-clearfix {
-  max-width: 100%;
+  width: 100%;
   padding-top: 3%;
-  padding-bottom: 0%; }
+  padding-bottom: 1%;
+  background: linear-gradient(to left, #22bfe5, #00aeef);
+  clear: both;
+  position: fixed;
+  z-index: 100; }
 
 .exit-nav-clearfix {
-  float: right;
   padding: 5%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  float: right; }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -657,20 +661,14 @@ a {
 
 ul {
   margin: 0px;
-  text-decoration: none; }
+  text-decoration: none;
+  text-align: right; }
 
 li {
   margin: 0px;
   margin-right: 5%;
   text-decoration: none;
-  display: inline;
-  float: right; }
-
-.arrow {
-  height: 30px;
-  width: 30px;
-  background: #fff;
-  float: left; }
+  display: inline; }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          

@@ -83,13 +83,17 @@
 }
 
 .nav-home-clearfix {
-	max-width: 100%;
+	width: 100%;
 	padding-top:3%;
-	padding-bottom: 0%;
+	padding-bottom: 1%;
+	background: linear-gradient(to left, #22bfe5 , #00aeef);
+	clear:both;
+	position: fixed;
+	z-index: 100;
 }
 
 .exit-nav-clearfix {
-	float: right;
 	padding:5%;
 	margin:0 auto;
+	float:right;
 }
