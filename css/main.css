@@ -1,7 +1,7 @@
 /* 
-Project Name: Sassy Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: my-portfolio
+Client: me
+Author: Yasmin el-amery
 */
 /* Import Sass partials here */
 /******************************************
@@ -590,72 +590,6 @@ a {
 /*******************************************/
 /* add a list of colours used in the project */
 /******************************************
-/* HOMEPAGE HEADER CONTENT AND MOVEMENT                 
-/*******************************************/
-.logo {
-  background-image: url("../images/yea3.png");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  transition: all 1s ease; }
-
-.logo:hover {
-  transform: translate(0, -4%); }
-
-/******************************************
-/* HOMEPAGE PROJECT LINKS
-/*******************************************/
-.proj1-clearfix {
-  background-image: url("../images/Athera_thumb.jpg");
-  height: 350px;
-  background-size: cover;
-  background-position: center; }
-
-.overlay {
-  background: rgba(255, 114, 117, 0.7);
-  height: 350px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  transform: translate(0, 100%);
-  transition: all 1s ease;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 150px; }
-
-.column-half-clearfix:hover .overlay {
-  transform: translate(0, -100%); }
-
-.column-half-clearfix:hover .overlay {
-  transform: none; }
-
-/******************************************
-/* ABOUT ME          
-/*******************************************/
-.picture-of-me-clearfix {
-  background-image: url("../images/Athera_thumb.jpg");
-  height: 100%;
-  width: 50%;
-  background-size: cover;
-  background-position: center;
-  float: right; }
-
-.text-overlay-1 {
-  margin: 0 auto;
-  width: 50%;
-  height: 100%;
-  float: left;
-  background: linear-gradient(to left, #22bfe5, #00aeef);
-  padding-left: 8%;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  padding-right: 6%; }
-
-/******************************************
 /* PROJECT PAGE 1             
 /*******************************************/
 /******************************************
@@ -781,5 +715,71 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
+
+/******************************************
+/* HOMEPAGE HEADER CONTENT AND MOVEMENT                 
+/*******************************************/
+.logo {
+  background-image: url("../images/yea3.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  transition: all 1s ease; }
+
+.logo:hover {
+  transform: translate(0, -4%); }
+
+/******************************************
+/* HOMEPAGE PROJECT LINKS
+/*******************************************/
+.proj1-clearfix {
+  background-image: url("../images/Athera_thumb.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center; }
+
+.overlay {
+  background: rgba(255, 114, 117, 0.7);
+  height: 350px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translate(0, 100%);
+  transition: all 1s ease;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px; }
+
+.column-half-clearfix:hover .overlay {
+  transform: translate(0, -100%); }
+
+.column-half-clearfix:hover .overlay {
+  transform: none; }
+
+/******************************************
+/* ABOUT ME          
+/*******************************************/
+.picture-of-me-clearfix {
+  background-image: url("../images/Athera_thumb.jpg");
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  float: right; }
+
+.text-overlay-1 {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to left, #22bfe5, #00aeef);
+  padding-left: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-right: 6%; }
 
 /*# sourceMappingURL=main.css.map */
