@@ -581,6 +581,14 @@ a {
 .text-span h3 {
   margin-top: 0; }
 
+.button a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  color: #A9A9A9;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 1rem; }
+
 /******************************************
 /* COLOURS
 /*******************************************/
@@ -621,6 +629,18 @@ li {
   margin-right: 5%;
   text-decoration: none;
   display: inline; }
+
+/******************************************
+/* BUTTON           
+/*******************************************/
+.button {
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
+  background: #fff;
+  margin-top: 40px;
+  float: right; }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          
@@ -756,7 +776,7 @@ li {
   transition: all 1s ease;
   text-align: center;
   margin: 0 auto;
-  padding-top: 150px; }
+  padding-top: 100px; }
 
 .column-half-clearfix:hover .overlay {
   transform: translate(0, -100%); }
