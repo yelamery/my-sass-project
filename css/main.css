@@ -54,7 +54,8 @@ img {
 .column-whole-clearfix {
   height: 100vh;
   background: linear-gradient(to left, #22bfe5, #00aeef);
-  position: relative; }
+  position: relative;
+  clear: both; }
 
 .column-one-clearfix {
   display: block;
@@ -82,23 +83,10 @@ img {
   margin: 10px;
   border: 1px solid #e8e6e6; }
 
-.about-me-clearfix {
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top: 10px;
-  background: linear-gradient(to left, #22bfe5, #00aeef);
-  text-align: center;
-  padding-right: 30%;
-  padding-left: 30%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  float: left;
-  border-bottom: 1px, solid, #fff; }
-
 .site-footer-clearfix {
   max-width: 100%;
   margin: 0 auto;
-  background: linear-gradient(to left, #22bfe5, #00aeef);
+  background: #fff;
   clear: both;
   height: 50px;
   text-align: center;
@@ -542,8 +530,9 @@ h3 {
   font-style: italic;
   color: #fff;
   font-size: 4rem;
-  margin: 0px;
-  margin-top: 10%; }
+  margin: 0;
+  margin-top: 10%;
+  line-height: 50px; }
 
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -557,7 +546,8 @@ p {
   color: #fff;
   font-size: 1rem;
   line-height: 24px;
-  display: inline; }
+  display: inline;
+  margin-bottom: 10%; }
 
 h5 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -568,7 +558,7 @@ h5 {
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: #00aeef;
   font-size: 1rem;
   margin: 0; }
 
@@ -577,7 +567,7 @@ h6 {
   font-weight: 300;
   color: #fff;
   font-size: 2rem;
-  margin-bottom: 10%;
+  margin-bottom: 50%;
   display: inline; }
 
 a {
@@ -587,6 +577,9 @@ a {
   font-size: 1.2rem;
   text-decoration: none;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3); }
+
+.text-span h3 {
+  margin-top: 0; }
 
 /******************************************
 /* COLOURS
@@ -639,6 +632,28 @@ a {
 
 .column-half-clearfix:hover .overlay {
   transform: none; }
+
+/******************************************
+/* ABOUT ME          
+/*******************************************/
+.picture-of-me-clearfix {
+  background-image: url("../images/Athera_thumb.jpg");
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  float: right; }
+
+.text-overlay-1 {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to left, #22bfe5, #00aeef);
+  padding-left: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-right: 6%; }
 
 /******************************************
 /* PROJECT PAGE 1             
@@ -757,6 +772,9 @@ li {
   background-size: cover;
   background-position: center; }
 
+/******************************************
+/* PROJECT IMAGES 1 COL          
+/*******************************************/
 .athera5-clearfix {
   background-image: url("../images/Athera5.png");
   height: 550px;
