@@ -108,7 +108,6 @@ img {
   width: 100%;
   padding-top: 3%;
   padding-bottom: 1%;
-  background: linear-gradient(to left, #22bfe5, #00aeef);
   clear: both;
   position: fixed;
   z-index: 100; }
@@ -586,7 +585,8 @@ a {
   font-weight: 500;
   color: #fff;
   font-size: 1.2rem;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3); }
 
 /******************************************
 /* COLOURS
