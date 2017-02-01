@@ -584,7 +584,7 @@ a {
 .button a {
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
-  color: #A9A9A9;
+  color: #808080;
   text-shadow: none;
   font-weight: 300;
   font-size: 1rem; }
@@ -640,7 +640,7 @@ li {
   padding-top: 10px;
   background: #fff;
   margin-top: 40px;
-  float: right; }
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3); }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          
@@ -756,6 +756,15 @@ li {
     top: 0; }
   100% {
     top: 5%; } }
+.arrow {
+  background-image: url("../images/button.svg");
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+  top: 90%;
+  left: 50%; }
+
 /******************************************
 /* HOMEPAGE PROJECT LINKS
 /*******************************************/
