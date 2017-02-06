@@ -639,7 +639,7 @@ li {
   padding-top: 10px;
   background: #fff;
   margin-top: 40px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3); }
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          
@@ -758,10 +758,9 @@ li {
 .arrow-box {
   background-image: url("../images/button.svg");
   height: 50px;
-  background-repeat: no-repeat;
   margin: 0 auto;
   bottom: 5%;
-  left: 50%;
+  left: 48%;
   position: absolute;
   width: 50px;
   background-size: cover; }
