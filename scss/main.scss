@@ -29,6 +29,12 @@ Author: Yasmin el-amery
 	animation: bounce 4s infinite ease;
 }
 
+@media screen and (max-width:1020px) {
+	.logo {
+			background-size: contain;
+	}
+}
+
 @keyframes bounce {
   0% {
     top:5%;
@@ -41,7 +47,7 @@ Author: Yasmin el-amery
   }
 }
 
-.arrow-box {
+[class^="arrow-box"] {
 	background-image: url("../images/button.svg");
 	height: 50px;
 	margin: 0 auto;
@@ -51,6 +57,16 @@ Author: Yasmin el-amery
 	width:50px;
 	background-size: cover;
 }
+
+@media screen and (max-width:1000px) {
+	.arrow-box-2 {
+		bottom:-27%;
+		left: 48%;
+		position:absolute;
+	}
+}
+
+
 
 /******************************************
 /* HOMEPAGE PROJECT LINKS
@@ -108,4 +124,19 @@ Author: Yasmin el-amery
 	padding-top:8%;
 	padding-bottom:8%;
 	padding-right: 6%;
+}
+
+@media screen and (max-width:1000px) {
+	[class^="text-overlay"] {
+		width:100%;
+		height:80%;
+		padding-top:2%;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	[class^="hero-image"] {
+		width:100%;
+		height:50%;
+	}
 }

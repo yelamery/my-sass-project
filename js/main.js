@@ -9,7 +9,7 @@ $(document).ready(function(){
   	  scrollTop: scrollPosition
   	}, 1000);
 	});
-	$('.arrow-box a').on('click', function(e){
+	$('column-whole-clearfix a').on('click', function(e){
   	e.preventDefault();
   	var target = $(this).attr('href');
   	var scrollPosition = $(target).offset().top;
