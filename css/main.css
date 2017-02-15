@@ -73,11 +73,6 @@ img {
   position: relative;
   overflow: hidden; }
 
-@media screen and (max-width: 1016px) {
-  .column-half-clearfix {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px; } }
 .column-three-clearfix {
   display: block;
   float: left;
@@ -87,19 +82,6 @@ img {
   margin: 10px;
   border: 1px solid #e8e6e6; }
 
-@media screen and (max-width: 1000px) {
-  .column-three-clearfix {
-    width: 48%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 10px; } }
-@media screen and (max-width: 600px) {
-  .column-three-clearfix {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 10px; } }
 .site-footer-clearfix {
   max-width: 100%;
   margin: 0 auto;
@@ -587,9 +569,6 @@ h6 {
   margin-bottom: 50%;
   display: inline; }
 
-@media screen and (max-width: 1020px) {
-  .project-number {
-    margin-bottom: 25%; } }
 a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
@@ -604,7 +583,7 @@ a {
 .button a {
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
-  color: #fff;
+  color: #808080;
   text-shadow: none;
   font-weight: 300;
   font-size: 1rem; }
@@ -654,11 +633,13 @@ li {
 /* BUTTON           
 /*******************************************/
 .button {
-  height: 60px;
-  max-width: 100%;
+  height: 40px;
+  width: 150px;
   text-align: center;
-  padding-top: 20px;
-  background: #ff7275; }
+  padding-top: 10px;
+  background: #fff;
+  margin-top: 40px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
 
 /******************************************
 /* PROJECT IMAGES 3 COL          
@@ -767,9 +748,6 @@ li {
   position: absolute;
   animation: bounce 4s infinite ease; }
 
-@media screen and (max-width: 1020px) {
-  .logo {
-    background-size: contain; } }
 @keyframes bounce {
   0% {
     top: 5%; }
@@ -777,7 +755,7 @@ li {
     top: 0; }
   100% {
     top: 5%; } }
-[class^="arrow-box"] {
+.arrow-box {
   background-image: url("../images/button.svg");
   height: 50px;
   margin: 0 auto;
@@ -787,11 +765,6 @@ li {
   width: 50px;
   background-size: cover; }
 
-@media screen and (max-width: 1000px) {
-  .arrow-box-2 {
-    bottom: -27%;
-    left: 48%;
-    position: absolute; } }
 /******************************************
 /* HOMEPAGE PROJECT LINKS
 /*******************************************/
@@ -841,15 +814,5 @@ li {
   padding-top: 8%;
   padding-bottom: 8%;
   padding-right: 6%; }
-
-@media screen and (max-width: 1000px) {
-  [class^="text-overlay"] {
-    width: 100%;
-    height: 80%;
-    padding-top: 2%; } }
-@media screen and (max-width: 1000px) {
-  [class^="hero-image"] {
-    width: 100%;
-    height: 50%; } }
 
 /*# sourceMappingURL=main.css.map */
